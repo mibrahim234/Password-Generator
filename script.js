@@ -68,6 +68,30 @@ function generatePassword() {
      Array.prototype.push.apply(allChar, lowerCaseArray);
      console.log(allChar);
    }
+ 
  }
+ //confirmation for uppercase
+ if(confirm("Do you want upper case letters in your password?")) {
+    Array.prototype.push.apply(allChar, upperCaseArray);
+    console.log(allChar);
+  }
 
+  //confirmation for numbers
+  if(confirm("Do you want numbers in your password?")) {
+    Array.prototype.push.apply(allChar, numbersArray);
+    console.log(allChar);
+  }
+
+  //confirmation for special characters
+  if(confirm("Do you want special characters in your password?")) {
+    Array.prototype.push.apply(allChar, specialArray);
+    console.log(allChar);
+  }
+
+  //if no confirmation was selected
+  if(allChar.length === 0) {
+      alert("You must select atleast one criteria for your password. Please click the button and try again!");
+  }
+
+  //
 }
