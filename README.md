@@ -14,8 +14,8 @@ You must choose atleast one of the customizations, if you do not, the website wi
 
 ![Password Generator Screenshot](./assets/images/password.PNG)
 
-Link to the GIT repository: https://github.com/mibrahim234/mibrahim234.github.io
+Link to the GIT repository: https://github.com/mibrahim234/Password-Generator
 
-Link to the Live Page: https://mibrahim234.github.io/
+Link to the Live Page: https://mibrahim234.github.io/Password-Generator/
 
 ## Credits: Mohammad Ibrahim 
