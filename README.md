@@ -10,5 +10,12 @@ When you click on a button, a prompt shows up asking how many characters you wou
 
 After this you will be asked multiple questions so you can customize your password however you like. The page will ask you if you need lower case letters, if you need upper case letters, if you need numbers, and if you need special characters in your password.
 
-You must choose atleast one of the customizations, if you do not, the website will display another prompt asking for you to choose.
+You must choose atleast one of the customizations, if you do not, the website will display another prompt asking you to choose.
 
+![Password Generator Screenshot](./assets/images/password.PNG)
+
+Link to the GIT repository: https://github.com/mibrahim234/mibrahim234.github.io
+
+Link to the Live Page: https://mibrahim234.github.io/
+
+## Credits: Mohammad Ibrahim 
