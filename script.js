@@ -25,7 +25,7 @@ var upperCase = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z";
 var upperCaseArray = upperCase.split(" ");
 var numbers = "0 1 2 3 4 5 6 7 8 9";
 var numbersArray = numbers.split(" ");
-var special = "! @ # $ % ^ & * ( ) _ - = + | \ [ ] { } / < > ? , . ; ' ' :";
+var special = "!@#$%^&*()-+,./?<>";
 var specialArray = special.split(" ");
 var allChar = [];
 var results = "";
@@ -34,11 +34,11 @@ var results = "";
 function generatePassword() {
   // a way to reset the variables
   allChar.length = 0;
-  result = '';
+  result = "";
 
   // Prompt for amount of characters
   var char = 0;
-  char = prompt("How many chracters do you need?");
+  char = prompt("How many characters do you need?");
   console.log(char);
 
   // Cancel function when user picks cancel
@@ -93,5 +93,22 @@ function generatePassword() {
       alert("You must select atleast one criteria for your password. Please click the button and try again!");
   }
 
-  //
+  //random password loop
+  else{
+    for(var i = 0; i < char; i++) {
+      var random = Math.floor(Math.random()*allChar.length);
+      result += allChar[random]
+      console.log(result);
+      console.log(allChar);
+
+    }
+  }
+
+//Display on screen
+return result;
+
 }
+
+
+
+
